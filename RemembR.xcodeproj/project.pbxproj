@@ -12,16 +12,18 @@
 		DE980BD62185DCEA0037E330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE980BD42185DCEA0037E330 /* Main.storyboard */; };
 		DE980BD82185DCEB0037E330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE980BD72185DCEB0037E330 /* Assets.xcassets */; };
 		DE980BDB2185DCEB0037E330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE980BD92185DCEB0037E330 /* LaunchScreen.storyboard */; };
+		DE980BE32185E9D10037E330 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE980BE22185E9D10037E330 /* CircularButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE980BCD2185DCEA0037E330 /* Remembering Simon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remembering Simon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE980BCD2185DCEA0037E330 /* RemembR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemembR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE980BD02185DCEA0037E330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE980BD22185DCEA0037E330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE980BD52185DCEA0037E330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE980BD72185DCEB0037E330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE980BDA2185DCEB0037E330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE980BDC2185DCEB0037E330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE980BE22185E9D10037E330 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		DE980BC42185DCEA0037E330 = {
 			isa = PBXGroup;
 			children = (
-				DE980BCF2185DCEA0037E330 /* Remembering Simon */,
+				DE980BCF2185DCEA0037E330 /* RemembR */,
 				DE980BCE2185DCEA0037E330 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +48,12 @@
 		DE980BCE2185DCEA0037E330 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE980BCD2185DCEA0037E330 /* Remembering Simon.app */,
+				DE980BCD2185DCEA0037E330 /* RemembR.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE980BCF2185DCEA0037E330 /* Remembering Simon */ = {
+		DE980BCF2185DCEA0037E330 /* RemembR */ = {
 			isa = PBXGroup;
 			children = (
 				DE980BD02185DCEA0037E330 /* AppDelegate.swift */,
@@ -60,16 +62,17 @@
 				DE980BD72185DCEB0037E330 /* Assets.xcassets */,
 				DE980BD92185DCEB0037E330 /* LaunchScreen.storyboard */,
 				DE980BDC2185DCEB0037E330 /* Info.plist */,
+				DE980BE22185E9D10037E330 /* CircularButton.swift */,
 			);
-			path = "Remembering Simon";
+			path = RemembR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE980BCC2185DCEA0037E330 /* Remembering Simon */ = {
+		DE980BCC2185DCEA0037E330 /* RemembR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE980BDF2185DCEB0037E330 /* Build configuration list for PBXNativeTarget "Remembering Simon" */;
+			buildConfigurationList = DE980BDF2185DCEB0037E330 /* Build configuration list for PBXNativeTarget "RemembR" */;
 			buildPhases = (
 				DE980BC92185DCEA0037E330 /* Sources */,
 				DE980BCA2185DCEA0037E330 /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Remembering Simon";
+			name = RemembR;
 			productName = "Remembering Simon";
-			productReference = DE980BCD2185DCEA0037E330 /* Remembering Simon.app */;
+			productReference = DE980BCD2185DCEA0037E330 /* RemembR.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DE980BC82185DCEA0037E330 /* Build configuration list for PBXProject "Remembering Simon" */;
+			buildConfigurationList = DE980BC82185DCEA0037E330 /* Build configuration list for PBXProject "RemembR" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE980BCC2185DCEA0037E330 /* Remembering Simon */,
+				DE980BCC2185DCEA0037E330 /* RemembR */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +140,7 @@
 			files = (
 				DE980BD32185DCEA0037E330 /* ViewController.swift in Sources */,
 				DE980BD12185DCEA0037E330 /* AppDelegate.swift in Sources */,
+				DE980BE32185E9D10037E330 /* CircularButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,15 +288,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TN9AW6LNJU;
-				INFOPLIST_FILE = "Remembering Simon/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/RemembR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "toumari.jackwilliams.Remembering-Simon";
+				PRODUCT_BUNDLE_IDENTIFIER = toumari.jackwilliams.RemembR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,22 +306,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TN9AW6LNJU;
-				INFOPLIST_FILE = "Remembering Simon/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/RemembR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "toumari.jackwilliams.Remembering-Simon";
+				PRODUCT_BUNDLE_IDENTIFIER = toumari.jackwilliams.RemembR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE980BC82185DCEA0037E330 /* Build configuration list for PBXProject "Remembering Simon" */ = {
+		DE980BC82185DCEA0037E330 /* Build configuration list for PBXProject "RemembR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE980BDD2185DCEB0037E330 /* Debug */,
@@ -326,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE980BDF2185DCEB0037E330 /* Build configuration list for PBXNativeTarget "Remembering Simon" */ = {
+		DE980BDF2185DCEB0037E330 /* Build configuration list for PBXNativeTarget "RemembR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE980BE02185DCEB0037E330 /* Debug */,
